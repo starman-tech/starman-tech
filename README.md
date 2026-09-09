@@ -93,6 +93,8 @@ Heavy compute runs entirely client-side: LLM inference on WebGPU, object detecti
 </td>
 <td width="42%" valign="top"><img src="assets/spotify.jpeg" alt="neo-apps" width="100%"></td>
 </tr>
+<td width="42%" valign="top"><img src="assets/molos.jpeg" alt="neo-apps" width="100%"></td>
+</tr>
 </table>
 
 <details>
