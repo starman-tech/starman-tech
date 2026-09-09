@@ -91,9 +91,10 @@ Heavy compute runs entirely client-side: LLM inference on WebGPU, object detecti
 <a href="https://github.com/starman-tech/neo-apps"><b>Repository →</b></a>
 
 </td>
-<td width="42%" valign="top"><img src="assets/spotify.jpeg" alt="neo-apps" width="100%"></td>
-</tr>
-<td width="42%" valign="top"><img src="assets/molos.jpeg" alt="neo-apps" width="100%"></td>
+<td width="42%" valign="top">
+<img src="assets/spotify.jpeg" alt="SPOTIFY.STL" width="100%">
+<img src="assets/molos.jpeg" alt="MOL.OS" width="100%">
+</td>
 </tr>
 </table>
 
