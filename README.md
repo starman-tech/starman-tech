@@ -2,18 +2,11 @@
 
 <img src="assets/banner.svg" width="100%" alt="Matteo Gaudioso — Embedded software and applied machine learning">
 
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=400&size=17&pause=1400&color=FF6B35&center=true&vCenter=true&width=620&height=36&lines=Soldering+since+8.+Coding+since+13.;Software+that+talks+to+hardware.;Models+that+run+somewhere+real." alt="">
-
-<a href="https://www.linkedin.com/in/matteo-gaudioso-74b72b371/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=FF6B35" alt="LinkedIn"></a>&nbsp;
-<a href="https://starman-tech.github.io/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=FF6B35" alt="Portfolio"></a>&nbsp;
-<a href="https://www.instagram.com/matteocean/"><img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=FF6B35" alt="Instagram"></a>&nbsp;
-<a href="mailto:gaudioso2008@gmail.com"><img src="https://img.shields.io/badge/Contact-0D1117?style=for-the-badge&logo=maildotru&logoColor=FF6B35" alt="Email"></a>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/OPEN_TO-Internship_2027_%C2%B7_Apprenticeship_2027--2028-FF6B35?style=flat-square&labelColor=0D1117" alt="Open to">
+<a href="https://www.linkedin.com/in/matteo-gaudioso-74b72b371/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=FF6B35&logoWidth=16" alt="LinkedIn"></a>
+<a href="https://starman-tech.github.io/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=FF6B35&logoWidth=16" alt="Portfolio"></a>
+<a href="https://www.instagram.com/matteocean/"><img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=FF6B35&logoWidth=16" alt="Instagram"></a>
+<a href="mailto:gaudioso2008@gmail.com"><img src="https://img.shields.io/badge/Contact-0D1117?style=for-the-badge&logo=maildotru&logoColor=FF6B35&logoWidth=16" alt="Email"></a>
+<a href="https://github.com/starman-tech?tab=repositories"><img src="https://img.shields.io/badge/Open_to-Internship_2027_%C2%B7_Apprenticeship_2027--2028-FF6B35?style=for-the-badge&labelColor=0D1117" alt="Open to"></a>
 
 </div>
 
