@@ -69,18 +69,29 @@ Airframe, electronics and flight software all built in-house. The hard part isn'
 <tr>
 <td width="58%" valign="top">
 
-#### FocusPCSI
-**A focus timer that catches you**
+#### neo-apps
+**Five browser-native tools — one HTML file each, zero backend**
 
-Runs entirely in the browser — no server, no account, nothing leaving your machine. Detects when you pick up your phone. Neo-brutalist UI.
+Heavy compute runs entirely client-side: LLM inference on WebGPU, object detection on a live webcam feed, 3D geometry, ZIP export. No install, no build step, no account, nothing leaving the machine.
 
-<img src="https://img.shields.io/badge/JavaScript-FF6B35?style=flat-square&labelColor=0D1117">
+<table>
+<tr><td><b>AILOL.OS</b></td><td>Chat with an LLM running on your own GPU — WebLLM · WebGPU</td></tr>
+<tr><td><b>FOCUS.OS</b></td><td>Webcam focus coach: the timer pauses if you pick up your phone — TensorFlow.js · COCO-SSD</td></tr>
+<tr><td><b>MOL.OS</b></td><td>3D molecular viewer and reaction animator — 3Dmol.js · PubChem API</td></tr>
+<tr><td><b>SPOTIFY.STL</b></td><td>Turns a Spotify link into a printable 3D keyring — three.js · STLExporter</td></tr>
+<tr><td><b>PHOTO.TGR</b></td><td>Bulk photo triage, rating and renaming, exported as a ZIP — JSZip · Canvas</td></tr>
+</table>
+
+<img src="https://img.shields.io/badge/WebGPU-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/TensorFlow.js-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/three.js-FF6B35?style=flat-square&labelColor=0D1117">
 <img src="https://img.shields.io/badge/Local--first-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/No_build-FF6B35?style=flat-square&labelColor=0D1117">
 
-<a href="https://github.com/starman-tech/FocusPCSI"><b>Repository →</b></a>
+<a href="https://github.com/starman-tech/neo-apps"><b>Repository →</b></a>
 
 </td>
-<td width="42%" valign="top"><img src="assets/focuspcsi.png" alt="FocusPCSI" width="100%"></td>
+<td width="42%" valign="top"><img src="assets/neo-apps.png" alt="neo-apps" width="100%"></td>
 </tr>
 </table>
 
@@ -157,15 +168,10 @@ Runs entirely in the browser — no server, no account, nothing leaving your mac
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/starman-tech/starman-tech/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/starman-tech/starman-tech/output/snake-light.svg">
-  <img src="https://raw.githubusercontent.com/starman-tech/starman-tech/output/snake-dark.svg" width="100%" alt="Contribution graph">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/starman-tech/starman-tech/output-3d-contrib/night.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/starman-tech/starman-tech/output-3d-contrib/day.svg">
+  <img src="https://raw.githubusercontent.com/starman-tech/starman-tech/output-3d-contrib/night.svg" width="100%" alt="3D contribution calendar">
 </picture>
-
-<br><br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=starman-tech&show_icons=true&include_all_commits=true&hide=issues&bg_color=0D1117&title_color=FF6B35&text_color=C9D1D9&icon_color=FF6B35&border_color=30363D" height="160" alt="Stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=starman-tech&layout=compact&langs_count=6&bg_color=0D1117&title_color=FF6B35&text_color=C9D1D9&border_color=30363D" height="160" alt="Languages">
 
 </div>
 
