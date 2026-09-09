@@ -172,7 +172,7 @@ Heavy compute runs entirely client-side: LLM inference on WebGPU, object detecti
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/starman-tech/starman-tech/output-3d-contrib/night.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/starman-tech/starman-tech/output-3d-contrib/day.svg">
-  <img src="https://raw.githubusercontent.com/starman-tech/starman-tech/output-3d-contrib/night.svg" width="100%" alt="3D contribution calendar">
+  <img src="https://raw.githubusercontent.com/starman-tech/starman-tech/output-3d-contrib/night.svg" width="70%" alt="3D contribution calendar">
 </picture>
 
 </div>
