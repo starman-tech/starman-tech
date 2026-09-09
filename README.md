@@ -135,9 +135,9 @@ Runs entirely in the browser — no server, no account, nothing leaving your mac
 ### 04 &nbsp;The lab
 
 <div align="center">
-<img src="assets/lab-bench.png" width="32%" alt="Workbench">
-<img src="assets/lab-printer.png" width="32%" alt="3D printer">
-<img src="assets/lab-drones.png" width="32%" alt="FPV">
+<img src="assets/lab-bench.jpg" width="32%" alt="Workbench">
+<img src="assets/lab-printer.jpg" width="32%" alt="3D printer">
+<img src="assets/lab-drones.jpg" width="32%" alt="FPV">
 </div>
 
 <br>
