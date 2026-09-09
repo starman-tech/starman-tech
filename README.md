@@ -63,7 +63,7 @@ Airframe, electronics and flight software all built in-house. The hard part isn'
 <img src="https://img.shields.io/badge/Aerodynamics-FF6B35?style=flat-square&labelColor=0D1117">
 
 </td>
-<td width="42%" valign="top"><img src="assets/glider.png" alt="Solar glider" width="100%"></td>
+<td width="42%" valign="top"><img src="assets/plane.jpeg" alt="Solar glider" width="100%"></td>
 </tr>
 
 <tr>
