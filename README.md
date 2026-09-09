@@ -75,11 +75,11 @@ Airframe, electronics and flight software all built in-house. The hard part isn'
 Heavy compute runs entirely client-side: LLM inference on WebGPU, object detection on a live webcam feed, 3D geometry, ZIP export. No install, no build step, no account, nothing leaving the machine.
 
 <table>
-<tr><td><b>AILOL.OS</b></td><td>Chat with an LLM running on your own GPU — WebLLM · WebGPU</td></tr>
-<tr><td><b>FOCUS.OS</b></td><td>Webcam focus coach: the timer pauses if you pick up your phone — TensorFlow.js · COCO-SSD</td></tr>
-<tr><td><b>MOL.OS</b></td><td>3D molecular viewer and reaction animator — 3Dmol.js · PubChem API</td></tr>
-<tr><td><b>SPOTIFY.STL</b></td><td>Turns a Spotify link into a printable 3D keyring — three.js · STLExporter</td></tr>
-<tr><td><b>PHOTO.TGR</b></td><td>Bulk photo triage, rating and renaming, exported as a ZIP — JSZip · Canvas</td></tr>
+<tr><td><b>AILOL.OS</b></td><td>WebLLM · WebGPU</td></tr>
+<tr><td><b>FOCUS.OS</b></td><td>TensorFlow.js · COCO-SSD</td></tr>
+<tr><td><b>MOL.OS</b></td><td>3Dmol.js · PubChem API</td></tr>
+<tr><td><b>SPOTIFY.STL</b></td><td>three.js · STLExporter</td></tr>
+<tr><td><b>PHOTO.TGR</b></td><td>JSZip · Canvas</td></tr>
 </table>
 
 <img src="https://img.shields.io/badge/WebGPU-FF6B35?style=flat-square&labelColor=0D1117">
