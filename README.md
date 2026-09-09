@@ -47,7 +47,7 @@ A model that drives 3D facial animation straight from a voice track, shipped wit
 <a href="https://github.com/starman-tech/AnimatAI"><b>Repository →</b></a>
 
 </td>
-<td width="42%" valign="top"><img src="assets/animatai.png" alt="AnimatAI" width="100%"></td>
+<td width="42%" valign="top"><img src="assets/animatai.jpeg" alt="AnimatAI" width="100%"></td>
 </tr>
 
 <tr>
