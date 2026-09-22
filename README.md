@@ -22,7 +22,7 @@ Most of what I know comes from projects that broke first — flight controllers,
 <tr><td width="160"><b>School</b></td><td>IPSA Paris — aerospace engineering, 2nd year</td></tr>
 <tr><td><b>Focus</b></td><td>Embedded software · applied ML · edge AI</td></tr>
 <tr><td><b>Building since</b></td><td>Soldering at 8 · code at 13 · CAD at 15</td></tr>
-<tr><td><b>Daily driver</b></td><td>Linux · i7 · RTX 3050 — writes his own GNOME Shell extensions</td></tr>
+<tr><td><b>Daily driver</b></td><td>Linux · i7 · RTX 3050 — runs on <a href="https://github.com/starman-tech/yuzu">Yuzu</a>, a GNOME Shell extension I wrote</td></tr>
 <tr><td><b>Also</b></td><td>Founder of <b>STAR Group</b>, a maker collective</td></tr>
 <tr><td><b>Looking for</b></td><td>Internship — summer 2027 &nbsp;·&nbsp; Apprenticeship — 2027/2028</td></tr>
 </table>
@@ -32,6 +32,33 @@ Most of what I know comes from projects that broke first — flight controllers,
 ### 02 &nbsp;Selected work
 
 <table>
+<tr>
+<td width="58%" valign="top">
+
+#### Yuzu &nbsp;<sub><i>v6.0</i></sub>
+**A floating side panel for GNOME Shell, made of the cards you choose**
+
+My daily driver, turned into a product. The panel slides in from the right edge of the screen (or `Super+P`) and holds only the cards you pick: media player, time tracker, to-do, system monitor, weather, markets. New modules install in one click from a community catalog and appear live — no shell restart, each file checked against its SHA-256.
+
+<table>
+<tr><td><b>Modular</b></td><td>every card is a single JS file, hot-loaded</td></tr>
+<tr><td><b>Catalog</b></td><td><a href="https://github.com/starman-tech/yuzu-modules">yuzu-modules</a> — community cards, one click</td></tr>
+<tr><td><b>Private</b></td><td>local by default, network features opt-in</td></tr>
+<tr><td><b>Shipped</b></td><td>GNOME 46–49 · CI · releases · one-line installer</td></tr>
+</table>
+
+<img src="https://img.shields.io/badge/GJS-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/GNOME_Shell-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/St_%C2%B7_Clutter-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/GitHub_Actions-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/GPL--3.0-FF6B35?style=flat-square&labelColor=0D1117">
+
+<a href="https://github.com/starman-tech/yuzu"><b>Repository →</b></a> &nbsp;·&nbsp; <a href="https://github.com/starman-tech/yuzu-modules"><b>Module catalog →</b></a>
+
+</td>
+<td width="42%" valign="top"><img src="https://raw.githubusercontent.com/starman-tech/yuzu/main/docs/screenshots/panel.png" alt="Yuzu side panel, dark and light themes" width="100%"></td>
+</tr>
+
 <tr>
 <td width="58%" valign="top">
 
@@ -130,7 +157,7 @@ Heavy compute runs entirely client-side: LLM inference on WebGPU, object detecti
 <tr>
 <td valign="middle"><b>Software</b></td>
 <td valign="middle"><img src="https://skillicons.dev/icons?i=python,rust,js,html&theme=dark" height="38"></td>
-<td valign="middle">Python · C++ · Rust · JavaScript · HTML/CSS<br><sub>Web apps · scrapers · automation · GNOME Shell extensions</sub></td>
+<td valign="middle">Python · C++ · Rust · JavaScript · HTML/CSS<br><sub>Web apps · scrapers · automation · GNOME Shell extensions (GJS)</sub></td>
 </tr>
 <tr>
 <td valign="middle"><b>Hardware & CAD</b></td>
@@ -159,7 +186,7 @@ Heavy compute runs entirely client-side: LLM inference on WebGPU, object detecti
 <table>
 <tr>
 <td width="33%" valign="top"><b>Fabrication</b><br><br>Wanhao Duplicator 12 — dual extruder<br>Soldering station — THT &amp; SMD<br>Laser cutting (off-site)</td>
-<td width="33%" valign="top"><b>Compute</b><br><br>Linux daily driver — i7 · RTX 3050<br>Dual-boot, but always on Linux<br>Custom GNOME Shell extensions</td>
+<td width="33%" valign="top"><b>Compute</b><br><br>Linux daily driver — i7 · RTX 3050<br>Dual-boot, but always on Linux<br>Custom GNOME Shell extensions — <a href="https://github.com/starman-tech/yuzu">Yuzu</a></td>
 <td width="33%" valign="top"><b>Flight</b><br><br>FPV quads<br>Flying wings<br>Gliders — incl. the solar build</td>
 </tr>
 </table>
@@ -210,8 +237,12 @@ L'essentiel de ce que je sais vient de projets qui ont d'abord cassé — contr�
 |:---|:---|
 | **Embarqué** | STM32, Arduino, Raspberry Pi · SPI, I²C, UART, PWM, interruptions · C++ bare-metal · Linux embarqué |
 | **Machine learning** | PyTorch, scikit-learn, XGBoost · vision, séries temporelles, fine-tuning de LLM, audio → blendshapes · datasets constitués à la main |
-| **Logiciel** | Python, C++, Rust, JavaScript · scrapers, automatisation, extensions GNOME Shell |
+| **Logiciel** | Python, C++, Rust, JavaScript · scrapers, automatisation, extensions GNOME Shell (GJS) |
 | **Matériel & CAO** | KiCad du schéma au PCB routé · Fusion 360, FreeCAD, CATIA · impression 3D |
+
+#### Yuzu
+
+Un panneau latéral flottant pour GNOME Shell (46–49), composé des cartes que l'on choisit : lecteur multimédia, suivi du temps, tâches, moniteur système, météo, marchés. Les modules communautaires s'installent en un clic depuis un [catalogue](https://github.com/starman-tech/yuzu-modules) et apparaissent à chaud, sans redémarrer le shell. Publié en v6.0 avec CI et installateur en une ligne — [dépôt](https://github.com/starman-tech/yuzu).
 
 #### Le lab
 
