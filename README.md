@@ -31,36 +31,40 @@ Most of what I know comes from projects that broke first — flight controllers,
 
 ### 02 &nbsp;Selected work
 
+<table>
+<tr>
+<td width="58%" valign="top">
+
 #### Groundbrain &nbsp;<sub><i>new</i></sub>
 **A tiny FPV drone flown by a brain that stays on the ground**
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/starman-tech/groundbrain/main/docs/ground-station.jpg" alt="Groundbrain ground station" width="560">
-</p>
 
 A stock 75 mm whoop, flown by my PC. The analog video comes down to the computer, a vision autopilot decides, and the stick commands go back up over the normal ExpressLRS link. Nothing is bolted onto the drone: no companion computer, no extra sensor. From the camera image alone, it takes off, holds its position and lands.
 
 <table>
-<tr><td><b>Autopilot</b></td><td>image registration + one Kalman filter per axis, 50 Hz, predicts through ~0.13 s of video lag</td></tr>
-<tr><td><b>Flight-tested</b></td><td>67 recorded flights · 17 autonomous landings · 45 s flights that land on their own</td></tr>
-<tr><td><b>Digital twin</b></td><td>fitted on real flights, ±1 cm in hover</td></tr>
-<tr><td><b>Honest</b></td><td>a written test report: what was proven in flight, and what wasn't</td></tr>
+<tr><td><b>Autopilot</b></td><td>vision + Kalman filter, 50 Hz</td></tr>
+<tr><td><b>Flight-tested</b></td><td>67 flights · 17 autonomous landings</td></tr>
+<tr><td><b>Digital twin</b></td><td>±1 cm in hover</td></tr>
+<tr><td><b>Honest</b></td><td>a written test report</td></tr>
 </table>
 
-<p><img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/OpenCV-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Kalman_filter-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/ExpressLRS_%C2%B7_CRSF-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Betaflight-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/GPL--3.0-FF6B35?style=flat-square&labelColor=0D1117"></p>
+<img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/OpenCV-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Kalman_filter-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/ExpressLRS_%C2%B7_CRSF-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Betaflight-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/GPL--3.0-FF6B35?style=flat-square&labelColor=0D1117">
 
 <a href="https://github.com/starman-tech/groundbrain"><b>Repository →</b></a>
 
-<br>
+</td>
+<td width="42%" valign="top"><img src="https://raw.githubusercontent.com/starman-tech/groundbrain/main/docs/ground-station.jpg" alt="Groundbrain ground station" width="340"></td>
+</tr>
 
----
+<tr>
+<td width="58%" valign="top">
 
 #### Yuzu &nbsp;<sub><i>v6.0</i></sub>
 **A floating side panel for GNOME Shell, made of the cards you choose**
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/starman-tech/yuzu/main/docs/screenshots/panel.png" alt="Yuzu side panel, dark and light themes" width="300">
-</p>
 
 My daily driver, turned into a product. The panel slides in from the right edge of the screen (or `Super+P`) and holds only the cards you pick: media player, time tracker, to-do, system monitor, weather, markets. New modules install in one click from a community catalog and appear live — no shell restart, each file checked against its SHA-256.
 
@@ -71,53 +75,57 @@ My daily driver, turned into a product. The panel slides in from the right edge 
 <tr><td><b>Shipped</b></td><td>GNOME 46–49 · CI · releases · one-line installer</td></tr>
 </table>
 
-<p><img src="https://img.shields.io/badge/GJS-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/GNOME_Shell-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/St_%C2%B7_Clutter-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/GitHub_Actions-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/GPL--3.0-FF6B35?style=flat-square&labelColor=0D1117"></p>
+<img src="https://img.shields.io/badge/GJS-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/GNOME_Shell-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/St_%C2%B7_Clutter-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/GitHub_Actions-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/GPL--3.0-FF6B35?style=flat-square&labelColor=0D1117">
 
 <a href="https://github.com/starman-tech/yuzu"><b>Repository →</b></a> &nbsp;·&nbsp; <a href="https://github.com/starman-tech/yuzu-modules"><b>Module catalog →</b></a>
 
-<br>
+</td>
+<td width="42%" valign="top"><img src="https://raw.githubusercontent.com/starman-tech/yuzu/main/docs/screenshots/panel.png" alt="Yuzu side panel, dark and light themes" width="340"></td>
+</tr>
 
----
+<tr>
+<td width="58%" valign="top">
 
 #### AnimatAI
 **Audio → facial blendshapes**
 
-<p align="center">
-<img src="assets/animatai.jpeg" alt="AnimatAI" width="420">
-</p>
-
 A model that drives 3D facial animation straight from a voice track, shipped with its own interface. Built the dataset, trained the network, wrote the UI.
 
-<p><img src="https://img.shields.io/badge/PyTorch-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Computer_vision-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117"></p>
+<img src="https://img.shields.io/badge/PyTorch-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Computer_vision-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117">
 
 <a href="https://github.com/starman-tech/AnimatAI"><b>Repository →</b></a>
 
-<br>
+</td>
+<td width="42%" valign="top"><img src="assets/animatai.jpeg" alt="AnimatAI" width="340"></td>
+</tr>
 
----
+<tr>
+<td width="58%" valign="top">
 
 #### Solar glider &nbsp;<sub><i>in progress</i></sub>
 **Long-endurance flight on solar power**
 
-<p align="center">
-<img src="assets/plane.jpeg" alt="Solar glider" width="260">
-</p>
-
 Airframe, electronics and flight software all built in-house. The hard part isn't the flying, it's the energy budget.
 
-<p><img src="https://img.shields.io/badge/STM32-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Fusion_360-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Aerodynamics-FF6B35?style=flat-square&labelColor=0D1117"></p>
+<img src="https://img.shields.io/badge/STM32-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Fusion_360-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Aerodynamics-FF6B35?style=flat-square&labelColor=0D1117">
 
-<br>
+</td>
+<td width="42%" valign="top"><img src="assets/plane.jpeg" alt="Solar glider" width="340"></td>
+</tr>
 
----
+<tr>
+<td width="58%" valign="top">
 
 #### neo-apps
 **Five browser-native tools — one HTML file each, zero backend**
-
-<p align="center">
-<img src="assets/spotify.jpeg" alt="SPOTIFY.STL" width="300">
-<img src="assets/molos.jpeg" alt="MOL.OS" width="300">
-</p>
 
 Heavy compute runs entirely client-side: LLM inference on WebGPU, object detection on a live webcam feed, 3D geometry, ZIP export. No install, no build step, no account, nothing leaving the machine.
 
@@ -129,9 +137,21 @@ Heavy compute runs entirely client-side: LLM inference on WebGPU, object detecti
 <tr><td><b>PHOTO.TGR</b></td><td>JSZip · Canvas</td></tr>
 </table>
 
-<p><img src="https://img.shields.io/badge/WebGPU-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/TensorFlow.js-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/three.js-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Local--first-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/No_build-FF6B35?style=flat-square&labelColor=0D1117"></p>
+<img src="https://img.shields.io/badge/WebGPU-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/TensorFlow.js-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/three.js-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Local--first-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/No_build-FF6B35?style=flat-square&labelColor=0D1117">
 
 <a href="https://github.com/starman-tech/neo-apps"><b>Repository →</b></a>
+
+</td>
+<td width="42%" valign="top">
+<img src="assets/spotify.jpeg" alt="SPOTIFY.STL" width="340">
+<img src="assets/molos.jpeg" alt="MOL.OS" width="340">
+</td>
+</tr>
+</table>
 
 <details>
 <summary><b>&nbsp;Other repositories</b></summary>
