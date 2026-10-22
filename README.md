@@ -47,12 +47,7 @@ A stock 75 mm whoop, flown by my PC. The analog video comes down to the computer
 <tr><td><b>Honest</b></td><td>a written test report: what was proven in flight, and what wasn't</td></tr>
 </table>
 
-<img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/OpenCV-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Kalman_filter-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/ExpressLRS_%C2%B7_CRSF-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Betaflight-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/GPL--3.0-FF6B35?style=flat-square&labelColor=0D1117">
+<p><img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/OpenCV-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Kalman_filter-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/ExpressLRS_%C2%B7_CRSF-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Betaflight-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/GPL--3.0-FF6B35?style=flat-square&labelColor=0D1117"></p>
 
 <a href="https://github.com/starman-tech/groundbrain"><b>Repository →</b></a>
 
@@ -76,11 +71,7 @@ My daily driver, turned into a product. The panel slides in from the right edge 
 <tr><td><b>Shipped</b></td><td>GNOME 46–49 · CI · releases · one-line installer</td></tr>
 </table>
 
-<img src="https://img.shields.io/badge/GJS-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/GNOME_Shell-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/St_%C2%B7_Clutter-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/GitHub_Actions-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/GPL--3.0-FF6B35?style=flat-square&labelColor=0D1117">
+<p><img src="https://img.shields.io/badge/GJS-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/GNOME_Shell-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/St_%C2%B7_Clutter-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/GitHub_Actions-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/GPL--3.0-FF6B35?style=flat-square&labelColor=0D1117"></p>
 
 <a href="https://github.com/starman-tech/yuzu"><b>Repository →</b></a> &nbsp;·&nbsp; <a href="https://github.com/starman-tech/yuzu-modules"><b>Module catalog →</b></a>
 
@@ -97,9 +88,7 @@ My daily driver, turned into a product. The panel slides in from the right edge 
 
 A model that drives 3D facial animation straight from a voice track, shipped with its own interface. Built the dataset, trained the network, wrote the UI.
 
-<img src="https://img.shields.io/badge/PyTorch-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Computer_vision-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117">
+<p><img src="https://img.shields.io/badge/PyTorch-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Computer_vision-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117"></p>
 
 <a href="https://github.com/starman-tech/AnimatAI"><b>Repository →</b></a>
 
@@ -116,9 +105,7 @@ A model that drives 3D facial animation straight from a voice track, shipped wit
 
 Airframe, electronics and flight software all built in-house. The hard part isn't the flying, it's the energy budget.
 
-<img src="https://img.shields.io/badge/STM32-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Fusion_360-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Aerodynamics-FF6B35?style=flat-square&labelColor=0D1117">
+<p><img src="https://img.shields.io/badge/STM32-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Fusion_360-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Aerodynamics-FF6B35?style=flat-square&labelColor=0D1117"></p>
 
 <br>
 
@@ -142,11 +129,7 @@ Heavy compute runs entirely client-side: LLM inference on WebGPU, object detecti
 <tr><td><b>PHOTO.TGR</b></td><td>JSZip · Canvas</td></tr>
 </table>
 
-<img src="https://img.shields.io/badge/WebGPU-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/TensorFlow.js-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/three.js-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Local--first-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/No_build-FF6B35?style=flat-square&labelColor=0D1117">
+<p><img src="https://img.shields.io/badge/WebGPU-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/TensorFlow.js-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/three.js-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/Local--first-FF6B35?style=flat-square&labelColor=0D1117"> <img src="https://img.shields.io/badge/No_build-FF6B35?style=flat-square&labelColor=0D1117"></p>
 
 <a href="https://github.com/starman-tech/neo-apps"><b>Repository →</b></a>
 
