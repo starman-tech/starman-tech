@@ -35,7 +35,7 @@ Most of what I know comes from projects that broke first — flight controllers,
 **A tiny FPV drone flown by a brain that stays on the ground**
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/starman-tech/groundbrain/main/docs/ground-station.jpg" alt="Groundbrain ground station" width="100%">
+<img src="https://raw.githubusercontent.com/starman-tech/groundbrain/main/docs/ground-station.jpg" alt="Groundbrain ground station" width="560">
 </p>
 
 A stock 75 mm whoop, flown by my PC. The analog video comes down to the computer, a vision autopilot decides, and the stick commands go back up over the normal ExpressLRS link. Nothing is bolted onto the drone: no companion computer, no extra sensor. From the camera image alone, it takes off, holds its position and lands.
@@ -59,7 +59,7 @@ A stock 75 mm whoop, flown by my PC. The analog video comes down to the computer
 **A floating side panel for GNOME Shell, made of the cards you choose**
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/starman-tech/yuzu/main/docs/screenshots/panel.png" alt="Yuzu side panel, dark and light themes" width="480">
+<img src="https://raw.githubusercontent.com/starman-tech/yuzu/main/docs/screenshots/panel.png" alt="Yuzu side panel, dark and light themes" width="300">
 </p>
 
 My daily driver, turned into a product. The panel slides in from the right edge of the screen (or `Super+P`) and holds only the cards you pick: media player, time tracker, to-do, system monitor, weather, markets. New modules install in one click from a community catalog and appear live — no shell restart, each file checked against its SHA-256.
@@ -83,7 +83,7 @@ My daily driver, turned into a product. The panel slides in from the right edge 
 **Audio → facial blendshapes**
 
 <p align="center">
-<img src="assets/animatai.jpeg" alt="AnimatAI" width="100%">
+<img src="assets/animatai.jpeg" alt="AnimatAI" width="420">
 </p>
 
 A model that drives 3D facial animation straight from a voice track, shipped with its own interface. Built the dataset, trained the network, wrote the UI.
@@ -100,7 +100,7 @@ A model that drives 3D facial animation straight from a voice track, shipped wit
 **Long-endurance flight on solar power**
 
 <p align="center">
-<img src="assets/plane.jpeg" alt="Solar glider" width="420">
+<img src="assets/plane.jpeg" alt="Solar glider" width="260">
 </p>
 
 Airframe, electronics and flight software all built in-house. The hard part isn't the flying, it's the energy budget.
@@ -115,8 +115,8 @@ Airframe, electronics and flight software all built in-house. The hard part isn'
 **Five browser-native tools — one HTML file each, zero backend**
 
 <p align="center">
-<img src="assets/spotify.jpeg" alt="SPOTIFY.STL" width="49%">
-<img src="assets/molos.jpeg" alt="MOL.OS" width="49%">
+<img src="assets/spotify.jpeg" alt="SPOTIFY.STL" width="300">
+<img src="assets/molos.jpeg" alt="MOL.OS" width="300">
 </p>
 
 Heavy compute runs entirely client-side: LLM inference on WebGPU, object detection on a live webcam feed, 3D geometry, ZIP export. No install, no build step, no account, nothing leaving the machine.
