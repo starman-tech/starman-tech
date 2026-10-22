@@ -31,12 +31,12 @@ Most of what I know comes from projects that broke first — flight controllers,
 
 ### 02 &nbsp;Selected work
 
-<table>
-<tr>
-<td width="58%" valign="top">
-
 #### Groundbrain &nbsp;<sub><i>new</i></sub>
 **A tiny FPV drone flown by a brain that stays on the ground**
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/starman-tech/groundbrain/main/docs/ground-station.jpg" alt="Groundbrain ground station" width="100%">
+</p>
 
 A stock 75 mm whoop, flown by my PC. The analog video comes down to the computer, a vision autopilot decides, and the stick commands go back up over the normal ExpressLRS link. Nothing is bolted onto the drone: no companion computer, no extra sensor. From the camera image alone, it takes off, holds its position and lands.
 
@@ -56,15 +56,16 @@ A stock 75 mm whoop, flown by my PC. The analog video comes down to the computer
 
 <a href="https://github.com/starman-tech/groundbrain"><b>Repository →</b></a>
 
-</td>
-<td width="42%" valign="top"><img src="https://raw.githubusercontent.com/starman-tech/groundbrain/main/docs/ground-station.jpg" alt="Groundbrain ground station" width="100%"></td>
-</tr>
+<br>
 
-<tr>
-<td width="58%" valign="top">
+---
 
 #### Yuzu &nbsp;<sub><i>v6.0</i></sub>
 **A floating side panel for GNOME Shell, made of the cards you choose**
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/starman-tech/yuzu/main/docs/screenshots/panel.png" alt="Yuzu side panel, dark and light themes" width="480">
+</p>
 
 My daily driver, turned into a product. The panel slides in from the right edge of the screen (or `Super+P`) and holds only the cards you pick: media player, time tracker, to-do, system monitor, weather, markets. New modules install in one click from a community catalog and appear live — no shell restart, each file checked against its SHA-256.
 
@@ -83,15 +84,16 @@ My daily driver, turned into a product. The panel slides in from the right edge 
 
 <a href="https://github.com/starman-tech/yuzu"><b>Repository →</b></a> &nbsp;·&nbsp; <a href="https://github.com/starman-tech/yuzu-modules"><b>Module catalog →</b></a>
 
-</td>
-<td width="42%" valign="top"><img src="https://raw.githubusercontent.com/starman-tech/yuzu/main/docs/screenshots/panel.png" alt="Yuzu side panel, dark and light themes" width="100%"></td>
-</tr>
+<br>
 
-<tr>
-<td width="58%" valign="top">
+---
 
 #### AnimatAI
 **Audio → facial blendshapes**
+
+<p align="center">
+<img src="assets/animatai.jpeg" alt="AnimatAI" width="100%">
+</p>
 
 A model that drives 3D facial animation straight from a voice track, shipped with its own interface. Built the dataset, trained the network, wrote the UI.
 
@@ -101,15 +103,16 @@ A model that drives 3D facial animation straight from a voice track, shipped wit
 
 <a href="https://github.com/starman-tech/AnimatAI"><b>Repository →</b></a>
 
-</td>
-<td width="42%" valign="top"><img src="assets/animatai.jpeg" alt="AnimatAI" width="100%"></td>
-</tr>
+<br>
 
-<tr>
-<td width="58%" valign="top">
+---
 
 #### Solar glider &nbsp;<sub><i>in progress</i></sub>
 **Long-endurance flight on solar power**
+
+<p align="center">
+<img src="assets/plane.jpeg" alt="Solar glider" width="420">
+</p>
 
 Airframe, electronics and flight software all built in-house. The hard part isn't the flying, it's the energy budget.
 
@@ -117,15 +120,17 @@ Airframe, electronics and flight software all built in-house. The hard part isn'
 <img src="https://img.shields.io/badge/Fusion_360-FF6B35?style=flat-square&labelColor=0D1117">
 <img src="https://img.shields.io/badge/Aerodynamics-FF6B35?style=flat-square&labelColor=0D1117">
 
-</td>
-<td width="42%" valign="top"><img src="assets/plane.jpeg" alt="Solar glider" width="100%"></td>
-</tr>
+<br>
 
-<tr>
-<td width="58%" valign="top">
+---
 
 #### neo-apps
 **Five browser-native tools — one HTML file each, zero backend**
+
+<p align="center">
+<img src="assets/spotify.jpeg" alt="SPOTIFY.STL" width="49%">
+<img src="assets/molos.jpeg" alt="MOL.OS" width="49%">
+</p>
 
 Heavy compute runs entirely client-side: LLM inference on WebGPU, object detection on a live webcam feed, 3D geometry, ZIP export. No install, no build step, no account, nothing leaving the machine.
 
@@ -144,14 +149,6 @@ Heavy compute runs entirely client-side: LLM inference on WebGPU, object detecti
 <img src="https://img.shields.io/badge/No_build-FF6B35?style=flat-square&labelColor=0D1117">
 
 <a href="https://github.com/starman-tech/neo-apps"><b>Repository →</b></a>
-
-</td>
-<td width="42%" valign="top">
-<img src="assets/spotify.jpeg" alt="SPOTIFY.STL" width="100%">
-<img src="assets/molos.jpeg" alt="MOL.OS" width="100%">
-</td>
-</tr>
-</table>
 
 <details>
 <summary><b>&nbsp;Other repositories</b></summary>
