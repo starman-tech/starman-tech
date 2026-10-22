@@ -2,7 +2,7 @@
 
 <img src="assets/banner.svg" width="100%" alt="Matteo Gaudioso — Embedded software and applied machine learning">
 
-<a href="https://www.linkedin.com/in/matteo-gaudioso-74b72b371/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=FF6B35&logoWidth=16" alt="LinkedIn"></a>
+<a href="https://www.linkedin.com/in/matteocean/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=FF6B35&logoWidth=16" alt="LinkedIn"></a>
 <a href="https://starman-tech.github.io/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=FF6B35&logoWidth=16" alt="Portfolio"></a>
 <a href="https://www.instagram.com/matteocean/"><img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=FF6B35&logoWidth=16" alt="Instagram"></a>
 <a href="mailto:gaudioso2008@gmail.com"><img src="https://img.shields.io/badge/Contact-0D1117?style=for-the-badge&logo=maildotru&logoColor=FF6B35&logoWidth=16" alt="Email"></a>
@@ -32,6 +32,34 @@ Most of what I know comes from projects that broke first — flight controllers,
 ### 02 &nbsp;Selected work
 
 <table>
+<tr>
+<td width="58%" valign="top">
+
+#### Groundbrain &nbsp;<sub><i>new</i></sub>
+**A tiny FPV drone flown by a brain that stays on the ground**
+
+A stock 75 mm whoop, flown by my PC. The analog video comes down to the computer, a vision autopilot decides, and the stick commands go back up over the normal ExpressLRS link. Nothing is bolted onto the drone: no companion computer, no extra sensor. From the camera image alone, it takes off, holds its position and lands.
+
+<table>
+<tr><td><b>Autopilot</b></td><td>image registration + one Kalman filter per axis, 50 Hz, predicts through ~0.13 s of video lag</td></tr>
+<tr><td><b>Flight-tested</b></td><td>67 recorded flights · 17 autonomous landings · 45 s flights that land on their own</td></tr>
+<tr><td><b>Digital twin</b></td><td>fitted on real flights, ±1 cm in hover</td></tr>
+<tr><td><b>Honest</b></td><td>a written test report: what was proven in flight, and what wasn't</td></tr>
+</table>
+
+<img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/OpenCV-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Kalman_filter-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/ExpressLRS_%C2%B7_CRSF-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Betaflight-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/GPL--3.0-FF6B35?style=flat-square&labelColor=0D1117">
+
+<a href="https://github.com/starman-tech/groundbrain"><b>Repository →</b></a>
+
+</td>
+<td width="42%" valign="top"><img src="https://raw.githubusercontent.com/starman-tech/groundbrain/main/docs/ground-station.jpg" alt="Groundbrain ground station" width="100%"></td>
+</tr>
+
 <tr>
 <td width="58%" valign="top">
 
@@ -239,6 +267,10 @@ L'essentiel de ce que je sais vient de projets qui ont d'abord cassé — contr�
 | **Machine learning** | PyTorch, scikit-learn, XGBoost · vision, séries temporelles, fine-tuning de LLM, audio → blendshapes · datasets constitués à la main |
 | **Logiciel** | Python, C++, Rust, JavaScript · scrapers, automatisation, extensions GNOME Shell (GJS) |
 | **Matériel & CAO** | KiCad du schéma au PCB routé · Fusion 360, FreeCAD, CATIA · impression 3D |
+
+#### Groundbrain
+
+Un petit drone FPV de 75 mm piloté par mon PC. La vidéo analogique descend jusqu'à l'ordinateur, un pilote automatique par vision décide, et les commandes remontent par la liaison ExpressLRS habituelle, sans rien ajouter sur le drone. À partir de la seule image de la caméra, il décolle, tient sa position et se pose : 67 vols enregistrés, 17 atterrissages autonomes, un jumeau numérique fidèle à ±1 cm en stationnaire — [dépôt](https://github.com/starman-tech/groundbrain).
 
 #### Yuzu
 
