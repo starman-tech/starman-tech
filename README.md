@@ -35,6 +35,33 @@ Most of what I know comes from projects that broke first — flight controllers,
 <tr>
 <td width="58%" valign="top">
 
+#### MousePods &nbsp;<sub><i>new · first public documentation</i></sub>
+**My AirPods are a mouse, and AirPods 3 finally give up their sensors**
+
+No open-source tool could read head tracking from AirPods 3: every project listed them as untested or unsupported. I reverse-engineered why. They ignore the protocol AirPods Pro use, and expose their motion sensors as virtual HID devices through **Apple RemoteHID**, a channel nobody had documented. On top of that, Linux's default Bluetooth MTU hides them. With the protocol written down, AirPods 3 stream their orientation at up to ~210 Hz, and I turned it into a head mouse for Linux.
+
+<table>
+<tr><td><b>Discovery</b></td><td>Apple RemoteHID (HID over AACP) · 8 hidden sensors</td></tr>
+<tr><td><b>Rate</b></td><td>up to ~210 Hz, vs 25 Hz in public tools</td></tr>
+<tr><td><b>Software</b></td><td>mouse · pointer · glide modes, Wayland, local app</td></tr>
+<tr><td><b>Honest</b></td><td>byte-exact spec, captures, a journal of ~300 failed attempts</td></tr>
+</table>
+
+<img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Bluetooth_L2CAP-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Reverse_engineering-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/HID_%C2%B7_IMU-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Apache--2.0_%C2%B7_CC_BY-FF6B35?style=flat-square&labelColor=0D1117">
+
+<a href="https://github.com/starman-tech/mousepods"><b>Repository →</b></a> &nbsp;·&nbsp; <a href="https://starman-tech.github.io/mousepods/"><b>Website →</b></a> &nbsp;·&nbsp; <a href="https://github.com/starman-tech/mousepods/blob/main/docs/DISCOVERIES.md"><b>Findings →</b></a>
+
+</td>
+<td width="42%" valign="top"><img src="https://raw.githubusercontent.com/starman-tech/mousepods/main/docs/screenshots/app-motion.png" alt="MousePods: live head-tracking data from AirPods 3" width="340"></td>
+</tr>
+
+<tr>
+<td width="58%" valign="top">
+
 #### Groundbrain &nbsp;<sub><i>new</i></sub>
 **A tiny FPV drone flown by a brain that stays on the ground**
 
@@ -267,6 +294,10 @@ L'essentiel de ce que je sais vient de projets qui ont d'abord cassé — contr�
 | **Machine learning** | PyTorch, scikit-learn, XGBoost · vision, séries temporelles, fine-tuning de LLM, audio → blendshapes · datasets constitués à la main |
 | **Logiciel** | Python, C++, Rust, JavaScript · scrapers, automatisation, extensions GNOME Shell (GJS) |
 | **Matériel & CAO** | KiCad du schéma au PCB routé · Fusion 360, FreeCAD, CATIA · impression 3D |
+
+#### MousePods
+
+Mes AirPods sont une souris. Aucun outil open source n'arrivait à lire le suivi de tête des AirPods 3. J'ai trouvé pourquoi par rétro-ingénierie Bluetooth : ils ignorent le protocole des AirPods Pro et exposent leurs capteurs comme des périphériques HID virtuels via **Apple RemoteHID**, un canal jamais documenté, que la taille de paquet Bluetooth par défaut de Linux cache en plus. Une fois le protocole décrit, les AirPods 3 envoient leur orientation jusqu'à ~210 fois par seconde, et j'en ai fait une souris par la tête sous Linux. Spécification, captures et journal publiés — [dépôt](https://github.com/starman-tech/mousepods) · [site](https://starman-tech.github.io/mousepods/).
 
 #### Groundbrain
 
