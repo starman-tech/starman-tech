@@ -57,7 +57,10 @@ A stock 75 mm whoop, flown by my PC. The analog video comes down to the computer
 <a href="https://github.com/starman-tech/groundbrain"><b>Repository →</b></a>
 
 </td>
-<td width="42%" valign="top"><img src="https://raw.githubusercontent.com/starman-tech/groundbrain/main/docs/ground-station.jpg" alt="Groundbrain ground station" width="340"></td>
+<td width="42%" valign="top">
+<img src="assets/groundbrain-hover.gif" alt="Groundbrain: the 75 mm whoop holding its position, flown by the vision autopilot" width="340">
+<img src="https://raw.githubusercontent.com/starman-tech/groundbrain/main/docs/ground-station.jpg" alt="Groundbrain ground station" width="340">
+</td>
 </tr>
 
 <tr>
@@ -81,7 +84,10 @@ A stock 75 mm whoop, flown by my PC. The analog video comes down to the computer
 <a href="https://www.instagram.com/reel/Der7pg7Iquw/"><b>Flight video →</b></a>
 
 </td>
-<td width="42%" valign="top"></td>
+<td width="42%" valign="top">
+<img src="assets/vtol-hover.gif" alt="VTOL tilt-rotor taking off vertically and hovering" width="340">
+<img src="assets/vtol.jpg" alt="VTOL tilt-rotor airframe, front view" width="340">
+</td>
 </tr>
 
 <tr>
