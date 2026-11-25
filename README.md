@@ -220,8 +220,6 @@ Heavy compute runs entirely client-side: LLM inference on WebGPU, object detecti
 
 <a href="https://github.com/starman-tech/Orion-V1-2024"><img src="https://github-readme-stats.vercel.app/api/pin/?username=starman-tech&repo=Orion-V1-2024&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&icon_color=8B949E&border_color=30363D" alt="Orion V1"></a>
 <a href="https://github.com/starman-tech/starman-tech.github.io"><img src="https://github-readme-stats.vercel.app/api/pin/?username=starman-tech&repo=starman-tech.github.io&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&icon_color=8B949E&border_color=30363D" alt="Portfolio"></a>
-<a href="https://github.com/starman-tech/voxia"><img src="https://github-readme-stats.vercel.app/api/pin/?username=starman-tech&repo=voxia&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&icon_color=8B949E&border_color=30363D" alt="voxia"></a>
-<a href="https://github.com/starman-tech/InnerTrack"><img src="https://github-readme-stats.vercel.app/api/pin/?username=starman-tech&repo=InnerTrack&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&icon_color=8B949E&border_color=30363D" alt="InnerTrack"></a>
 
 </div>
 </details>
