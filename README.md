@@ -85,7 +85,7 @@ A stock 75 mm whoop, flown by my PC. The analog video comes down to the computer
 
 </td>
 <td width="42%" valign="top">
-<img src="assets/vtol-hover.gif" alt="VTOL tilt-rotor taking off vertically and hovering" width="340">
+<img src="assets/vtol-flight.gif" alt="VTOL tilt-rotor in flight, seen from below" width="340">
 <img src="assets/vtol.jpg" alt="VTOL tilt-rotor airframe, front view" width="340">
 </td>
 </tr>
