@@ -5,8 +5,8 @@
 <a href="https://www.linkedin.com/in/matteocean/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=FF6B35&logoWidth=16" alt="LinkedIn"></a>
 <a href="https://starman-tech.github.io/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=FF6B35&logoWidth=16" alt="Portfolio"></a>
 <a href="https://www.instagram.com/matteocean/"><img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=FF6B35&logoWidth=16" alt="Instagram"></a>
-<a href="mailto:gaudioso2008@gmail.com"><img src="https://img.shields.io/badge/Contact-0D1117?style=for-the-badge&logo=maildotru&logoColor=FF6B35&logoWidth=16" alt="Email"></a>
-<a href="https://github.com/starman-tech?tab=repositories"><img src="https://img.shields.io/badge/Open_to-Internship_2027_%C2%B7_Apprenticeship_2027--2028-FF6B35?style=for-the-badge&labelColor=0D1117" alt="Open to"></a>
+<a href="mailto:matteo.gaudioso@ipsa.fr"><img src="https://img.shields.io/badge/Contact-0D1117?style=for-the-badge&logo=maildotru&logoColor=FF6B35&logoWidth=16" alt="Email"></a>
+<a href="https://github.com/starman-tech?tab=repositories"><img src="https://img.shields.io/badge/Open_to-Internship_%E2%80%94_summer_2027_%C2%B7_Apprenticeship_%E2%80%94_3_years_from_Sept._2027-FF6B35?style=for-the-badge&labelColor=0D1117" alt="Open to"></a>
 
 </div>
 
@@ -16,15 +16,15 @@
 
 I write software that talks to hardware, and I train models that have to run somewhere real.
 
-Most of what I know comes from projects that broke first — flight controllers, custom PCBs, 3D-printed airframes, trading models, vision pipelines. School gave me the theory. The workbench gave me the rest.
+Most of what I know comes from projects that broke first — flight controllers, custom PCBs, 3D-printed airframes, vision pipelines. School gave me the theory. The workbench gave me the rest.
 
 <table>
-<tr><td width="160"><b>School</b></td><td>IPSA Paris — aerospace engineering, 2nd year</td></tr>
-<tr><td><b>Focus</b></td><td>Embedded software · applied ML · edge AI</td></tr>
+<tr><td width="160"><b>School</b></td><td>IPSA Paris — aerospace engineering, 2nd year (2025 → 2030)</td></tr>
+<tr><td><b>Focus</b></td><td>Drones &amp; GNC · embedded software · applied ML</td></tr>
 <tr><td><b>Building since</b></td><td>Soldering at 8 · code at 13 · CAD at 15</td></tr>
 <tr><td><b>Daily driver</b></td><td>Linux · i7 · RTX 3050 — runs on <a href="https://github.com/starman-tech/yuzu">Yuzu</a>, a GNOME Shell extension I wrote</td></tr>
-<tr><td><b>Also</b></td><td>Founder of <b>STAR Group</b>, a maker collective</td></tr>
-<tr><td><b>Looking for</b></td><td>Internship — summer 2027 &nbsp;·&nbsp; Apprenticeship — 2027/2028</td></tr>
+<tr><td><b>Also</b></td><td>Co-founder of <b>STAR Group</b>, a maker collective</td></tr>
+<tr><td><b>Looking for</b></td><td>Internship — summer 2027 &nbsp;·&nbsp; Apprenticeship — 3 years from Sept. 2027</td></tr>
 </table>
 
 <img src="assets/divider.svg" width="100%" alt="">
@@ -32,33 +32,6 @@ Most of what I know comes from projects that broke first — flight controllers,
 ### 02 &nbsp;Selected work
 
 <table>
-<tr>
-<td width="58%" valign="top">
-
-#### MousePods &nbsp;<sub><i>new · first public documentation</i></sub>
-**My AirPods are a mouse, and AirPods 3 finally give up their sensors**
-
-No open-source tool could read head tracking from AirPods 3: every project listed them as untested or unsupported. I reverse-engineered why. They ignore the protocol AirPods Pro use, and expose their motion sensors as virtual HID devices through **Apple RemoteHID**, a channel nobody had documented. On top of that, Linux's default Bluetooth MTU hides them. With the protocol written down, AirPods 3 stream their orientation at up to ~210 Hz, and I turned it into a head mouse for Linux.
-
-<table>
-<tr><td><b>Discovery</b></td><td>Apple RemoteHID (HID over AACP) · 8 hidden sensors</td></tr>
-<tr><td><b>Rate</b></td><td>up to ~210 Hz, vs 25 Hz in public tools</td></tr>
-<tr><td><b>Software</b></td><td>mouse · pointer · glide modes, Wayland, local app</td></tr>
-<tr><td><b>Honest</b></td><td>byte-exact spec, captures, a journal of ~300 failed attempts</td></tr>
-</table>
-
-<img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Bluetooth_L2CAP-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Reverse_engineering-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/HID_%C2%B7_IMU-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Apache--2.0_%C2%B7_CC_BY-FF6B35?style=flat-square&labelColor=0D1117">
-
-<a href="https://github.com/starman-tech/mousepods"><b>Repository →</b></a> &nbsp;·&nbsp; <a href="https://starman-tech.github.io/mousepods/"><b>Website →</b></a> &nbsp;·&nbsp; <a href="https://github.com/starman-tech/mousepods/blob/main/docs/DISCOVERIES.md"><b>Findings →</b></a>
-
-</td>
-<td width="42%" valign="top"><img src="https://raw.githubusercontent.com/starman-tech/mousepods/main/docs/screenshots/app-motion.png" alt="MousePods: live head-tracking data from AirPods 3" width="340"></td>
-</tr>
-
 <tr>
 <td width="58%" valign="top">
 
@@ -90,6 +63,99 @@ A stock 75 mm whoop, flown by my PC. The analog video comes down to the computer
 <tr>
 <td width="58%" valign="top">
 
+#### VTOL tilt-rotor &nbsp;<sub><i>in progress</i></sub>
+**Takes off as a tricopter, then tilts its rotors to fly as a plane**
+
+<table>
+<tr><td><b>Flight stack</b></td><td>ArduPilot QuadPlane</td></tr>
+<tr><td><b>Avionics</b></td><td>SpeedyBee F405 Wing, tilt servos</td></tr>
+<tr><td><b>Status</b></td><td>hover validated</td></tr>
+<tr><td><b>Method</b></td><td>flight-log analysis</td></tr>
+</table>
+
+<img src="https://img.shields.io/badge/ArduPilot-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/QuadPlane-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/SpeedyBee_F405_Wing-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/ExpressLRS_%C2%B7_CRSF-FF6B35?style=flat-square&labelColor=0D1117">
+
+<a href="https://www.instagram.com/reel/Der7pg7Iquw/"><b>Flight video →</b></a>
+
+</td>
+<td width="42%" valign="top"></td>
+</tr>
+
+<tr>
+<td width="58%" valign="top">
+
+#### Solar glider &nbsp;<sub><i>in progress</i></sub>
+**Long-endurance flight on solar power**
+
+Airframe, electronics and flight software all built in-house. The hard part isn't the flying, it's the energy budget.
+
+<img src="https://img.shields.io/badge/STM32-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Fusion_360-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Aerodynamics-FF6B35?style=flat-square&labelColor=0D1117">
+
+</td>
+<td width="42%" valign="top"><img src="assets/plane.jpeg" alt="Solar glider" width="340"></td>
+</tr>
+
+<tr>
+<td width="58%" valign="top">
+
+#### MousePods &nbsp;<sub><i>new · first public documentation</i></sub>
+**My AirPods are a mouse, and AirPods 3 finally give up their sensors**
+
+No open-source tool could read head tracking from AirPods 3: every project listed them as untested or unsupported. I reverse-engineered why. They ignore the protocol AirPods Pro use, and expose their motion sensors as virtual HID devices through **Apple RemoteHID**, a channel nobody had documented. On top of that, Linux's default Bluetooth MTU hides them. With the protocol written down, AirPods 3 stream their orientation at up to ~210 Hz, and I turned it into a head mouse for Linux.
+
+<table>
+<tr><td><b>Discovery</b></td><td>Apple RemoteHID (HID over AACP) · 8 hidden sensors</td></tr>
+<tr><td><b>Rate</b></td><td>up to ~210 Hz, vs 25 Hz in public tools</td></tr>
+<tr><td><b>Software</b></td><td>mouse · pointer · glide modes, Wayland, local app</td></tr>
+<tr><td><b>Honest</b></td><td>byte-exact spec, captures, a journal of ~300 failed attempts</td></tr>
+<tr><td><b>Press</b></td><td>covered by Hackaday, Hackster.io and WatchGeneration</td></tr>
+</table>
+
+<img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Bluetooth_L2CAP-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Reverse_engineering-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/HID_%C2%B7_IMU-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Apache--2.0_%C2%B7_CC_BY-FF6B35?style=flat-square&labelColor=0D1117">
+
+<a href="https://github.com/starman-tech/mousepods"><b>Repository →</b></a> &nbsp;·&nbsp; <a href="https://starman-tech.github.io/mousepods/"><b>Website →</b></a> &nbsp;·&nbsp; <a href="https://github.com/starman-tech/mousepods/blob/main/docs/DISCOVERIES.md"><b>Findings →</b></a>
+
+</td>
+<td width="42%" valign="top"><img src="https://raw.githubusercontent.com/starman-tech/mousepods/main/docs/screenshots/app-motion.png" alt="MousePods: live head-tracking data from AirPods 3" width="340"></td>
+</tr>
+
+<tr>
+<td width="58%" valign="top">
+
+#### AnimatAI
+**Audio → facial blendshapes**
+
+A model that drives 3D facial animation straight from a voice track, shipped with its own interface. Built the dataset, trained the network, wrote the UI.
+
+<table>
+<tr><td><b>Output</b></td><td>52 ARKit blendshapes</td></tr>
+<tr><td><b>Speed</b></td><td>30 fps · real-time</td></tr>
+<tr><td><b>Export</b></td><td>ONNX</td></tr>
+</table>
+
+<img src="https://img.shields.io/badge/PyTorch-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/ONNX-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Computer_vision-FF6B35?style=flat-square&labelColor=0D1117">
+<img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117">
+
+<a href="https://github.com/starman-tech/AnimatAI"><b>Repository →</b></a>
+
+</td>
+<td width="42%" valign="top"><img src="assets/animatai.jpeg" alt="AnimatAI" width="340"></td>
+</tr>
+
+<tr>
+<td width="58%" valign="top">
+
 #### Yuzu &nbsp;<sub><i>v6.0</i></sub>
 **A floating side panel for GNOME Shell, made of the cards you choose**
 
@@ -112,40 +178,6 @@ My daily driver, turned into a product. The panel slides in from the right edge 
 
 </td>
 <td width="42%" valign="top"><img src="https://raw.githubusercontent.com/starman-tech/yuzu/main/docs/screenshots/panel.png" alt="Yuzu side panel, dark and light themes" width="340"></td>
-</tr>
-
-<tr>
-<td width="58%" valign="top">
-
-#### AnimatAI
-**Audio → facial blendshapes**
-
-A model that drives 3D facial animation straight from a voice track, shipped with its own interface. Built the dataset, trained the network, wrote the UI.
-
-<img src="https://img.shields.io/badge/PyTorch-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Computer_vision-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Python-FF6B35?style=flat-square&labelColor=0D1117">
-
-<a href="https://github.com/starman-tech/AnimatAI"><b>Repository →</b></a>
-
-</td>
-<td width="42%" valign="top"><img src="assets/animatai.jpeg" alt="AnimatAI" width="340"></td>
-</tr>
-
-<tr>
-<td width="58%" valign="top">
-
-#### Solar glider &nbsp;<sub><i>in progress</i></sub>
-**Long-endurance flight on solar power**
-
-Airframe, electronics and flight software all built in-house. The hard part isn't the flying, it's the energy budget.
-
-<img src="https://img.shields.io/badge/STM32-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Fusion_360-FF6B35?style=flat-square&labelColor=0D1117">
-<img src="https://img.shields.io/badge/Aerodynamics-FF6B35?style=flat-square&labelColor=0D1117">
-
-</td>
-<td width="42%" valign="top"><img src="assets/plane.jpeg" alt="Solar glider" width="340"></td>
 </tr>
 
 <tr>
@@ -202,12 +234,17 @@ Heavy compute runs entirely client-side: LLM inference on WebGPU, object detecti
 <tr>
 <td width="150" valign="middle"><b>Embedded</b></td>
 <td width="170" valign="middle"><img src="https://skillicons.dev/icons?i=arduino,raspberrypi,cpp&theme=dark" height="38"></td>
-<td valign="middle">STM32 · Arduino Nano/Uno · Raspberry Pi<br><sub>SPI · I²C · UART · PWM · interrupts · timers · embedded Linux</sub></td>
+<td valign="middle">STM32 · ESP32 · Arduino Nano/Uno · Raspberry Pi · Pi Pico<br><sub>SPI · I²C · UART · PWM · interrupts · timers · embedded Linux</sub></td>
+</tr>
+<tr>
+<td valign="middle"><b>Drones</b></td>
+<td valign="middle"><img src="https://skillicons.dev/icons?i=py,cpp&theme=dark" height="38"></td>
+<td valign="middle">ArduPilot · Betaflight · MAVLink · ExpressLRS/CRSF · ROS 2<br><sub>Vision autopilot · VTOL integration · flight-log analysis</sub></td>
 </tr>
 <tr>
 <td valign="middle"><b>Machine learning</b></td>
 <td valign="middle"><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" height="38"></td>
-<td valign="middle">PyTorch · scikit-learn · XGBoost · pandas<br><sub>Computer vision · time series · LLM fine-tuning · custom datasets</sub></td>
+<td valign="middle">PyTorch · scikit-learn · XGBoost · pandas · ONNX · OpenCV<br><sub>Computer vision · time series · LLM fine-tuning · custom datasets</sub></td>
 </tr>
 <tr>
 <td valign="middle"><b>Software</b></td>
@@ -222,7 +259,7 @@ Heavy compute runs entirely client-side: LLM inference on WebGPU, object detecti
 <tr>
 <td valign="middle"><b>Tooling</b></td>
 <td valign="middle"><img src="https://skillicons.dev/icons?i=linux,git,githubactions,docker&theme=dark" height="38"></td>
-<td valign="middle">Linux · Git · GitHub Actions · Docker<br><sub>CI pipelines, automated builds and releases</sub></td>
+<td valign="middle">Linux · Git · GitHub Actions · Docker · MATLAB/Simulink (basics)<br><sub>CI pipelines, automated builds and releases</sub></td>
 </tr>
 </table>
 
@@ -264,7 +301,7 @@ Heavy compute runs entirely client-side: LLM inference on WebGPU, object detecti
 
 ### 06 &nbsp;STAR Group
 
-A maker collective I founded — a place to build ambitious projects with people who'd rather ship than talk about shipping. Currently in development.
+A maker collective I co-founded — a place to build ambitious projects with people who'd rather ship than talk about shipping. Currently in development.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -277,31 +314,41 @@ A maker collective I founded — a place to build ambitious projects with people
 
 J'écris du logiciel qui parle à du matériel, et j'entraîne des modèles qui doivent tourner quelque part de réel.
 
-L'essentiel de ce que je sais vient de projets qui ont d'abord cassé — contrôleurs de vol, PCB maison, cellules imprimées en 3D, modèles de trading, pipelines de vision. L'école m'a donné la théorie, l'établi a fait le reste.
+L'essentiel de ce que je sais vient de projets qui ont d'abord cassé — contrôleurs de vol, PCB maison, cellules imprimées en 3D, pipelines de vision. L'école m'a donné la théorie, l'établi a fait le reste.
 
 | | |
 |:---|:---|
-| **École** | IPSA Paris — 2ᵉ année |
-| **Domaines** | Logiciel embarqué · ML appliqué · edge AI |
+| **École** | IPSA Paris — ingénierie aérospatiale, 2ᵉ année (2025 → 2030) |
+| **Domaines** | Drones & GNC · logiciel embarqué · ML appliqué |
 | **Depuis** | Soudure à 8 ans · code à 13 ans · CAO à 15 ans |
-| **Recherche** | Stage été 2027 · alternance 2027/2028 |
+| **Recherche** | Stage été 2027, puis alternance 3 ans dès septembre 2027 (3 semaines école / 3 semaines entreprise) |
 
 #### Compétences
 
 | Domaine | Détail |
 |:---|:---|
-| **Embarqué** | STM32, Arduino, Raspberry Pi · SPI, I²C, UART, PWM, interruptions · C++ bare-metal · Linux embarqué |
-| **Machine learning** | PyTorch, scikit-learn, XGBoost · vision, séries temporelles, fine-tuning de LLM, audio → blendshapes · datasets constitués à la main |
+| **Drones** | ArduPilot, Betaflight, MAVLink, ExpressLRS/CRSF, ROS 2 · pilote automatique par vision, intégration VTOL, analyse de journaux de vol |
+| **Embarqué** | STM32, ESP32, Arduino, Raspberry Pi, Pi Pico · SPI, I²C, UART, PWM, interruptions · C++ bare-metal · Linux embarqué |
+| **Machine learning** | PyTorch, scikit-learn, XGBoost, ONNX, OpenCV · vision, séries temporelles, fine-tuning de LLM, audio → blendshapes · datasets constitués à la main |
 | **Logiciel** | Python, C++, Rust, JavaScript · scrapers, automatisation, extensions GNOME Shell (GJS) |
 | **Matériel & CAO** | KiCad du schéma au PCB routé · Fusion 360, FreeCAD, CATIA · impression 3D |
-
-#### MousePods
-
-Mes AirPods sont une souris. Aucun outil open source n'arrivait à lire le suivi de tête des AirPods 3. J'ai trouvé pourquoi par rétro-ingénierie Bluetooth : ils ignorent le protocole des AirPods Pro et exposent leurs capteurs comme des périphériques HID virtuels via **Apple RemoteHID**, un canal jamais documenté, que la taille de paquet Bluetooth par défaut de Linux cache en plus. Une fois le protocole décrit, les AirPods 3 envoient leur orientation jusqu'à ~210 fois par seconde, et j'en ai fait une souris par la tête sous Linux. Spécification, captures et journal publiés — [dépôt](https://github.com/starman-tech/mousepods) · [site](https://starman-tech.github.io/mousepods/).
+| **Outils** | Linux, Git, GitHub Actions, Docker · MATLAB/Simulink (bases) |
 
 #### Groundbrain
 
 Un petit drone FPV de 75 mm piloté par mon PC. La vidéo analogique descend jusqu'à l'ordinateur, un pilote automatique par vision décide, et les commandes remontent par la liaison ExpressLRS habituelle, sans rien ajouter sur le drone. À partir de la seule image de la caméra, il décolle, tient sa position et se pose : 67 vols enregistrés, 17 atterrissages autonomes, un jumeau numérique fidèle à ±1 cm en stationnaire — [dépôt](https://github.com/starman-tech/groundbrain).
+
+#### VTOL à rotors basculants *(en cours)*
+
+Décolle en tricoptère, puis bascule ses rotors pour voler en avion. ArduPilot QuadPlane, avionique SpeedyBee F405 Wing et servos de basculement, analyse des journaux de vol ; vol stationnaire validé — [vidéo de vol](https://www.instagram.com/reel/Der7pg7Iquw/).
+
+#### MousePods
+
+Mes AirPods sont une souris. Aucun outil open source n'arrivait à lire le suivi de tête des AirPods 3. J'ai trouvé pourquoi par rétro-ingénierie Bluetooth : ils ignorent le protocole des AirPods Pro et exposent leurs capteurs comme des périphériques HID virtuels via **Apple RemoteHID**, un canal jamais documenté, que la taille de paquet Bluetooth par défaut de Linux cache en plus. Une fois le protocole décrit, les AirPods 3 envoient leur orientation jusqu'à ~210 fois par seconde, et j'en ai fait une souris par la tête sous Linux. Spécification, captures et journal publiés — [dépôt](https://github.com/starman-tech/mousepods) · [site](https://starman-tech.github.io/mousepods/). Presse : Hackaday, Hackster.io et WatchGeneration.
+
+#### AnimatAI
+
+Un modèle qui anime un visage 3D directement à partir de la voix : 52 blendshapes ARKit à 30 images/s, en temps réel, avec export ONNX. Dataset, entraînement et interface faits à la main — [dépôt](https://github.com/starman-tech/AnimatAI).
 
 #### Yuzu
 
@@ -313,7 +360,7 @@ Wanhao Duplicator 12 (double extrudeur), station de soudure, découpe laser en e
 
 #### STAR Group
 
-Un collectif de makers que j'ai fondé — un endroit pour construire des projets ambitieux avec des gens qui préfèrent livrer que d'en parler. En cours de développement.
+Un collectif de makers que j'ai cofondé — un endroit pour construire des projets ambitieux avec des gens qui préfèrent livrer que d'en parler. En cours de développement.
 
 </details>
 
@@ -323,7 +370,6 @@ Un collectif de makers que j'ai fondé — un endroit pour construire des projet
 
 ### Let's build something
 
-<a href="mailto:matteo.gaudioso@ipsa.fr"><img src="https://img.shields.io/badge/matteo.gaudioso@ipsa.fr-0D1117?style=for-the-badge&logo=maildotru&logoColor=FF6B35"></a>&nbsp;
-<a href="mailto:gaudioso2008@gmail.com"><img src="https://img.shields.io/badge/gaudioso2008@gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=FF6B35"></a>
+<a href="mailto:matteo.gaudioso@ipsa.fr"><img src="https://img.shields.io/badge/matteo.gaudioso@ipsa.fr-0D1117?style=for-the-badge&logo=maildotru&logoColor=FF6B35"></a>
 
 </div>
